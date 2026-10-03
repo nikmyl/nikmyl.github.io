@@ -1,0 +1,16 @@
+# Web artifact marker -- indexed by claude-hub/_general/tools/web-artifacts/aggregate.py
+name: nikmyl.github.io (apps homepage)
+type: website
+status: active
+stack: static HTML on GitHub Pages
+deploy: GitHub Pages (user site, repo nikmyl/nikmyl.github.io), live on push
+repo: https://github.com/nikmyl/nikmyl.github.io
+project: Calendar Scheduling
+created: 2026-10-03
+urls:
+  - label: production
+    url: https://nikmyl.github.io
+context: >-
+  Public homepage for Nikos's apps. Holds the Calendar Agent homepage and privacy
+  policy that Google requires (with Search Console verification) before the
+  booking app's Google sign-in can be published. Candidate hub for all his apps.
