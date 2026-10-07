@@ -9,7 +9,7 @@
 <body>
   <main>
     <h1>Calendar Agent: privacy policy</h1>
-    <p class="muted">Last updated 3 October 2026 (email codes for every visitor; approval of requests beyond the usual limits).</p>
+    <p class="muted">Last updated 7 October 2026 (a confirmed address is remembered in the visitor's browser for 12 hours).</p>
 
     <p>This policy explains what information Calendar Agent collects when someone books a meeting with Nikos Mylonopoulos, why, where it is kept, for how long, and how to have it corrected or deleted.</p>
 
@@ -21,6 +21,7 @@
       <tr><th>Information</th><th>Why it is needed</th></tr>
       <tr><td>Name, email address and a short topic</td><td>To identify the meeting, and to send the calendar invitation to the visitor.</td></tr>
       <tr><td>A one-time code sent to the visitor's email address</td><td>To confirm that the address belongs to the person booking, so that nobody can book in someone else's name. The code expires after 10 minutes; Cloudflare keeps only a scrambled form of it, and of the address, for at most 12 hours.</td></tr>
+      <tr><td>A confirmation kept in the visitor's own browser</td><td>So that a visitor who has entered the code can book again from the same browser for the next 12 hours without a new code. It holds the email address and a random pass, never the code itself. After 12 hours it no longer works, and the page deletes it at the next visit. A visitor can remove it sooner by clearing the browser's data for the site.</td></tr>
       <tr><td>The chosen time, length and format of the meeting</td><td>To create the meeting in Nikos's calendar.</td></tr>
       <tr><td>An address, for an in-person meeting outside Alba Graduate Business School</td><td>To allow for travel time and to tell Nikos where to go.</td></tr>
       <tr><td>A meeting link supplied by the visitor (for example Microsoft Teams)</td><td>To include it in the invitation.</td></tr>
